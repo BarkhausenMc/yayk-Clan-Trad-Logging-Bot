@@ -1,0 +1,21 @@
+
+{
+  "name": "hugosmp-trader-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Internes Spawner-Handelssystem für HugoSMP",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=24.17.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.2.3",
+    "pg": "^8.23.1"
+  }
+}
